@@ -17,6 +17,9 @@ ul {
   padding: 0px;
   margin: 0px;
 }
+li{
+  list-style:  none;
+}
 a {
   text-decoration: none;
 }
@@ -570,4 +573,142 @@ margin-top: 20px;
   position: absolute;
   top: -310px;
   left: -530px;
+}
+
+
+/* section 9 */
+
+.kol{
+  margin-top: 80px;
+}
+
+.kol__content{
+  width: 1200px;
+  margin: 0 auto;
+}
+.kol .kol-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.kol-top h1{
+  font-family: Helvetica;
+font-size: 32px;
+font-weight: 700;
+line-height: 41.6px;
+text-align: left;
+color: rgba(32, 35, 42, 1);
+}
+
+.kol-top .kol-nav i{
+  padding: 18px;
+  border-radius: 180px;
+  font-size: 18px;
+  color: rgba(32, 35, 42, 1);
+  background: rgba(248, 250, 255, 1);
+  cursor: pointer;
+}
+
+.kol-bot{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 1400px
+}
+
+.kol__block{
+  background: rgba(248, 250, 255, 1);
+  width: 513px;
+  height: 297px;
+  padding: 40px;
+  gap: 20px;
+  border-radius: 15px;
+  opacity: 0px;
+  overflow: visible;
+  width: 33%;
+  margin-right: 30px;
+
+}
+.kol__block--top{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.kol__block--top .h3{
+  font-family: Helvetica;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.3px;
+text-align: left;
+}
+.kol__block--bot{
+  margin-top: 20px;
+}
+
+.kol__block--bot p{
+  font-family: Helvetica;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: rgba(0, 0, 0, 0.6);
+}
+
+/* footer */
+
+footer{
+  background-color: rgba(0, 0, 0, 1);
+  height: 328px;
+}
+.footer__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto 0  auto;
+  padding-top: 59px;
+}
+
+.footer__block{
+  width: 288px;
+  text-align: left;
+  font-family: Helvetica;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: rgba(198, 204, 220, 1);
+}
+
+.footer__block li{
+  color: rgba(198, 204, 220, 1);
+}
+
+.footer__block:nth-child(1){
+  margin-right: 129px ;
+}
+
+.footer__block li{
+  cursor: pointer;
+}
+
+footer #hr{
+  height: 1px;
+  color: white;
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+footer .copy{
+  font-family: Helvetica ;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.7px;
+text-align: center;
+margin-top: 20px;
+color: rgba(255, 255, 255, 1);
 }
